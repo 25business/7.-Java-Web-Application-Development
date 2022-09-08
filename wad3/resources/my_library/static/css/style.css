@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Courgette&display=swap');
+
+h1,h2,h3,h4, h5,h6 {
+    font-family: 'Arvo', serif;
+}
+
+.mobile-menu-close {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 2.5rem;
+}
+
+.website-icon {
+    font-size: 4rem;
+    color: darkred;
+}
+
+.website-slogan {
+    font-size: 1.5rem;
+    color: #999999;
+}
+
+.website-title {
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+}
+
+.website-title>a {
+    text-decoration: none;
+    color: darkred;
+}
+
+@media all and (max-width: 767px) {
+    .desktop-nav {
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .website-title {
+        font-size: 3.5rem;
+    }
+
+    .mobile-menu-button {
+        display: none;
+    }
+}
